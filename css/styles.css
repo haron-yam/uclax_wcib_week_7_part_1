@@ -1,0 +1,55 @@
+html, body {
+	height: 100%
+}
+
+html {
+	display: table;
+  margin: auto;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 20px;
+	background: #fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px;
+}
+
+	#my_button {
+		height:34px;
+    margin:0 auto;
+    margin-right:100px;
+    float:left;
+	}
+
+  .board {
+  	background: yellow;
+  	width: 300px;
+  	height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .square {
+  	width: 100px;
+  	height: 100px;
+  	float: left;
+
+    &.red {
+    	background: red;
+    }
+
+    &.green {
+    	background: green;
+    }
+  }
+
+  .animal {
+    width: 100px;
+    height: auto;
+  }
+}
