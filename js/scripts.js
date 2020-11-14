@@ -7,16 +7,16 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-			$(this).html('Click for Mom').removeClass('btn-primary').addClass('btn-success');
+			$(this).html('Click for Mom').removeClass('btn-info').addClass('btn-warning');
 
-			$('#my_image').attr('src', '../images/dad.jpg');
+			$('#my_image').attr('src', '../images/dad.gif');
 
 		} else {
 			my_switch = false;
 
-			$(this).html('Click for Dad').removeClass('btn-success').addClass('btn-primary');;
+			$(this).html('Click for Dad').removeClass('btn-warning').addClass('btn-info');;
 
-			$('#my_image').attr('src', '../images/mom.jpg');
+			$('#my_image').attr('src', '../images/mom.gif');
 		}
 
 		// if ( $('.square.alt').hasClass('red') ) {
