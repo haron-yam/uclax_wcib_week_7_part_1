@@ -9,14 +9,14 @@ jQuery(function() {
 
 			$(this).html('Click for Mom').removeClass('btn-info').addClass('btn-warning');
 
-			$('#my_image').attr('src', '../images/dad.gif');
+			$('#my_image').attr('src', 'images/dad.gif');
 
 		} else {
 			my_switch = false;
 
 			$(this).html('Click for Dad').removeClass('btn-warning').addClass('btn-info');;
 
-			$('#my_image').attr('src', '../images/mom.gif');
+			$('#my_image').attr('src', 'images/mom.gif');
 		}
 
 		// if ( $('.square.alt').hasClass('red') ) {
